@@ -2,3 +2,51 @@
     margin:0px;
     padding:0px;
 }
+:root{
+    --preto: #121212;
+    --pretoClaro: #242424;
+    --amarelo: #edc802;
+}
+
+header{
+    height:100vh;
+    background-color: #242424;
+}
+menu{
+    background-color: var(--preto);
+    height:8vh;
+}
+menu > ul{
+    padding-top:10px;
+    padding-left: 60px;
+}
+menu > ul > a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+}
+menu > ul > a > li{
+    display:inline;
+    margin-right: 10px;
+}
+
+#baner{
+    background:url("./imagem/eu.jpeg");
+    background-position:top left;
+    height:92vh;
+}
+#baner >h1 {
+    color: white;
+    font-size:50px;
+    padding-top:60px;
+    padding-left:20px;
+}
+#baner > h2 {
+    color:var(--amarelo);
+    font-size:30px;
+    padding-left:20px;
+}
+
+main{
+
+}
