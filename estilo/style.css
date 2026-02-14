@@ -11,14 +11,19 @@
 header{
     height:100vh;
     background-color: #242424;
+    box-shadow: inset  0px -15px 20px -15px black;
 }
 menu{
     background-color: var(--preto);
     height:8vh;
 }
-menu > ul{
-    padding-top:10px;
-    padding-left: 60px;
+menu > ul {
+    padding: 10px;
+    width:70vw;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
 }
 menu > ul > a {
     color: white;
@@ -31,15 +36,12 @@ menu > ul > a > li{
 }
 
 #baner{
-    background:url("./imagem/eu.jpeg");
-    background-position:top left;
-    height:92vh;
+    padding:10px;
 }
 #baner >h1 {
     color: white;
     font-size:50px;
-    padding-top:60px;
-    padding-left:20px;
+    margin-top: 10px;
 }
 #baner > h2 {
     color:var(--amarelo);
@@ -49,4 +51,38 @@ menu > ul > a > li{
 
 main{
 
+}
+main > section> h2{
+    font-size:2.5em;
+    padding:10px;
+    margin-top:10px;
+    text-align: center;
+}
+main > section > div > h3{
+    color: #ffffff;
+    font-size:2em;
+    text-align: center;
+    padding:10px;
+}
+.formacoes{
+    width:450px;
+    height:300px;
+    background-color: #242424;
+    margin-top:10px;
+    border-radius:5px;
+    box-shadow:  3px 3px 5px #121212d0;
+    position: relative;
+    transform: translate(-50%);
+    left:50%;
+}
+
+#TECs > h3{
+    font-size:30px;
+    text-align: center;
+    padding:10px;
+    margin-top:10px;
+}
+.logoTec{
+    width: 100px;
+    height:100px;
 }
