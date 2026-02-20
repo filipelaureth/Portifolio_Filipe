@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    font-family:sans-serif;
 }
 :root{
     --preto: #121212;
@@ -19,7 +20,7 @@ menu{
 }
 menu > ul {
     padding: 10px;
-    width:70vw;
+    width:400px;
     position: relative;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -52,14 +53,14 @@ menu > ul > a > li{
 main{
 
 }
-main > section> h2{
+section> h2{
     font-size:2.5em;
     padding:10px;
     margin-top:10px;
     text-align: center;
 }
-main > section > div > h3{
-    color: #ffffff;
+section > div > h3{
+    color:var(--amarelo);
     font-size:2em;
     text-align: center;
     padding:10px;
@@ -74,15 +75,66 @@ main > section > div > h3{
     position: relative;
     transform: translate(-50%);
     left:50%;
+    margin-bottom:20px;
+}
+.formacoes > div{
+    position: relative;
+    width:400px;
+    height:200px;
+    transform: translate(-50%);
+    left:50%;
+    border-radius:10px;
+    padding-top:10px;
+}
+.formacoes > div> p{
+    color:white;
+    font-size:18px;
+    margin-left:30px;
+    margin-top:10px;
+}
+#estacio{
+    background-color: #134ac8;
+}
+#universidade{
+    margin-bottom:25px;
+    font-weight:800;
+}
+#if{
+    background-color: #2ba43c;
+}
+#escola{
+    margin-bottom:25px;
+    font-weight:800;
 }
 
+
+#TECs{
+    padding:20px;
+}
 #TECs > h3{
     font-size:30px;
     text-align: center;
     padding:10px;
-    margin-top:10px;
+    margin-top:5px;
+    margin-bottom:10px;
 }
 .logoTec{
     width: 100px;
     height:100px;
+}
+#conteiner-tec{
+    display: flex;
+    overflow-x: auto;
+}
+#conteiner-tec::-webkit-scrollbar{
+    display:none;
+}
+.grupo{
+    display: flex;
+    animation: spin 13s infinite linear;
+}
+
+@keyframes spin {
+    from{translate:0;}
+    to{translate:-100%;}
 }
