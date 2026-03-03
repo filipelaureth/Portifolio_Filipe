@@ -83,8 +83,8 @@ section > div > h3{
 
 /*configurações da div formções*/
 .formacoes{
-    width:450px;
-    height:300px;
+    width:85vw;
+    height:50vh;
     background-color: #242424;
     margin-top:10px;
     border-radius:5px;
@@ -193,7 +193,7 @@ section > div > h3{
 #historia{
     margin-top:40px;
     width:97vw;
-    height:630px;
+    height:105vh;
     background-color: var(--pretoClaro);
 }
 #historia > h2{
