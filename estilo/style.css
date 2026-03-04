@@ -11,6 +11,9 @@
     --amarelo: #edc802;
 }
 
+html{
+    scroll-behavior:smooth;
+}
 body::-webkit-scrollbar { 
 	display: none;
 }
@@ -49,13 +52,13 @@ menu > ul > a > li{
 }
 #baner >h1 {
     color: white;
-    font-size:50px;
+    font-size:40px;
     text-align: center;
     margin-top: 10px;
 }
 #baner > h2 {
     color:var(--amarelo);
-    font-size:30px;
+    font-size:20px;
     text-align: center;
 }
 
@@ -67,7 +70,7 @@ header{
     background-size:cover;
     box-shadow: inset  0px -15px 20px -15px black;
     background-repeat: no-repeat;
-    background-attachment: center top;
+    background-position: top right;
 }
 
 /*minha Formações*/
@@ -246,4 +249,11 @@ footer > div > p {
 @keyframes spin {
     from{translate:0;}
     to{translate:-100%;}
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: white !important;
+        color: black !important;
+    }
 }
