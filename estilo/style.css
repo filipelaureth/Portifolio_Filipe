@@ -11,16 +11,19 @@
     --amarelo: #edc802;
 }
 
+body::-webkit-scrollbar { 
+	display: none;
+}
 
 /*<menu>*/
 menu{
     background-color: var(--preto);
-    width:96vw;
+    width:100vw;
     height:8vh;
 }
 menu > ul {
     padding: 10px;
-    width:400px;
+    width:78vw;
     position: relative;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -28,7 +31,7 @@ menu > ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:15px;
+    gap:3vw
 }
 menu > ul > a {
     color: white;
@@ -58,9 +61,10 @@ menu > ul > a > li{
 
 /*<Minha Foto>*/
 header{
+    width:100vw;
     height:100vh;
     background:url(./imagem/eu.jpeg);
-    background-size: contain no-repeat;
+    background-size:cover;
     box-shadow: inset  0px -15px 20px -15px black;
     background-repeat: no-repeat;
     /*arrumar a repedição da imagem em backgrond*/
@@ -83,7 +87,7 @@ section > div > h3{
 
 /*configurações da div formções*/
 .formacoes{
-    width:85vw;
+    width:88vw;
     height:50vh;
     background-color: #242424;
     margin-top:10px;
@@ -192,7 +196,7 @@ section > div > h3{
 /*<história>*/
 #historia{
     margin-top:40px;
-    width:97vw;
+    width:100vw;
     height:105vh;
     background-color: var(--pretoClaro);
 }
@@ -217,20 +221,17 @@ strong{
 
 /*<roda pé>*/
 footer{
-    width:97vw;
-    height:120px;
+    width:100vw;
+    height:22vh;
     background-color:var(--preto);
+    
 }
 footer > h2 {
     color:white;
     font-size:20px;
     margin-left:30px;
     margin-bottom:10px;
-    padding-top:15px
-}
-footer > p {
-    text-align: center;
-    color:white;
+    padding-top:15px;
 }
 footer > div {
     margin-bottom: 15px;
@@ -238,9 +239,18 @@ footer > div {
 footer > div > p {
     color:white;
     margin-left: 40px;
+    margin-bottom: 5px;
+}
+#aviso {
+    text-align: center;
+    color:white;
+    position:relative;
+    bottom:0px;
+    background-color: #0435a88e;
+    display: block;
 }
 #Manual{
-    color: rgba(236, 7, 7, 0.925);
+    color: rgba(255, 0, 0, 0.925);
 }
 
 /*<animações>*/
