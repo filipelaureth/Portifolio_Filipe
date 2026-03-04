@@ -1,0 +1,21 @@
+@media screen and (min-width:500px) {
+   .formacoes{ 
+        width:50vw;
+   }
+    .formacoes > div{
+        width:45vw;   
+     }
+    .container-cabecalho{
+        margin-bottom:20px;
+    }
+    #conteiner-tec{
+    width:65vw;
+    margin: auto;
+    }
+    #historia > p{
+        width:30vw;
+    }
+    footer{
+    height:20vh;
+    }
+}

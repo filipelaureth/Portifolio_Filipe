@@ -70,7 +70,7 @@ header{
     background-size:cover;
     box-shadow: inset  0px -15px 20px -15px black;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top center;
 }
 
 /*minha Formações*/
@@ -88,7 +88,7 @@ section > div > h3{
     padding:10px;
 }
 
-/*configurações da div formções*/
+/*configurações da div formações*/
 .formacoes{
     width:88vw;
     height:50vh;
