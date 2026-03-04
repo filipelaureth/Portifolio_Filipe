@@ -222,11 +222,11 @@ strong{
 /*<roda pé>*/
 footer{
     width:100vw;
-    height:22vh;
+    height:18vh;
     background-color:var(--preto);
     
 }
-footer > h2 {
+footer> h2 {
     color:white;
     font-size:20px;
     margin-left:30px;
@@ -240,17 +240,6 @@ footer > div > p {
     color:white;
     margin-left: 40px;
     margin-bottom: 5px;
-}
-#aviso {
-    text-align: center;
-    color:white;
-    position:relative;
-    bottom:0px;
-    background-color: #0435a88e;
-    display: block;
-}
-#Manual{
-    color: rgba(255, 0, 0, 0.925);
 }
 
 /*<animações>*/
