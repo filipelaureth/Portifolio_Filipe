@@ -61,6 +61,12 @@ menu > ul > a > li{
     font-size:20px;
     text-align: center;
 }
+#baner > p {
+    display:none;
+    color:var(--amarelo);
+    font-size:1.2em;
+    text-align: center;
+}
 
 /*<Minha Foto>*/
 header{
@@ -163,9 +169,15 @@ section > div > h3{
 #estacio{
     background-color: #134ac8;
 }
+#img-faculdade{
+    display:none;
+}
 
 #if{
     background-color: #2ba43c;
+}
+#img-escola{
+    display:none;
 }
 
 
@@ -220,6 +232,9 @@ section > div > h3{
 }
 strong{
     color:var(--amarelo);
+}
+#img-historia{
+    display:none;
 }
 
 /*<roda pé>*/

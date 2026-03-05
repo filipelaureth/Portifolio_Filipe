@@ -1,21 +1,81 @@
 @media screen and (min-width:500px) {
-   .formacoes{ 
-        width:50vw;
-   }
-    .formacoes > div{
-        width:45vw;   
-     }
-    .container-cabecalho{
-        margin-bottom:20px;
+
+    /*<imagem menu>*/
+    header {
+        background-image: url(./imagem/euGrande.png);
     }
-    #conteiner-tec{
-    width:65vw;
+
+    /*<Meu nome>*/
+    #baner {
+        width:40vw;
+        position: relative;
+        top: 20%;
+        left: 18%;
+    }
+    #baner>h1 {
+        color: white;
+        font-size: 5em;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #baner>h2 {
+        color: var(--amarelo);
+        font-size: 3em;
+        text-align: center;
+    }
+    #baner > p {
+        display: block;
+    width:30vw;
+    color:var(--amarelo);
+    padding-top:10vh;
+    font-size:1.2em;
+    text-align: center;
     margin: auto;
     }
-    #historia > p{
-        width:30vw;
+
+
+    /*minha Formações*/
+    .formacoes {
+        width: 50vw;
     }
-    footer{
-    height:20vh;
+
+    .formacoes>div {
+        width: 45vw;
+    }
+
+    .container-cabecalho {
+        margin-bottom: 20px;
+    }
+
+    /*<Tecnologias que eu sei>*/
+    #conteiner-tec {
+        width: 65vw;
+        margin: auto;
+    }
+
+    /*<história>*/
+    #historia>p {
+        width: 30vw;
+    }
+
+    /*<roda pé>*/
+    footer {
+        height: 20vh;
+    }
+
+    /*<imagem>*/
+    #img-faculdade {
+        display: none;
+        width: 300px;
+    }
+
+    #img-escola {
+        display: none;
+        width: 300px;
+    }
+
+    #img-historia {
+        display: none;
+        width: 500px;
     }
 }
