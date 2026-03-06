@@ -98,7 +98,7 @@ section > div > h3{
 .formacoes{
     width:88vw;
     height:50vh;
-    background-color: #242424;
+    /*background-color: #242424;*/
     margin-top:10px;
     border-radius:5px;
     box-shadow:  3px 3px 5px #121212d0;
@@ -117,10 +117,12 @@ section > div > h3{
     padding-top:10px;
 }
 .formacoes > div> p{
+    display: inline-block;
     color:white;
     font-size:18px;
-    margin-left:30px;
-    margin-top:10px;
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-bottom:5px;
 }
 
 /*cabeçalho das instituições*/
@@ -162,6 +164,9 @@ section > div > h3{
     top:50%;
     width:30px;
     height:30px;
+}
+.container-dados{
+    border: 2px solid white;
 }
 
 
