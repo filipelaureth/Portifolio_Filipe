@@ -37,42 +37,54 @@
         </div>
     </header>
     <main>
-        <section id="formacao">
-            <h2>Formações</h2>
-        <section id="formacao">
-            <div class="formacoes" id="estacio">
-                <h3>Ensino Superior</h3>
-                <div class="container-dados">
-                    <div class="container-cabecalho">
-                        <div class="div-logo">
-                            <img src="./estilo/imagem/estacioCortada.png" alt="Estacio" id="logo-estacio">
+        <section></section>
+            <h2 id="formacao">Formações</h2>
+
+            <div class="container-grid">
+
+                <div><img src="./estilo/imagem/faculdade.png" alt="faculdade" id="img-faculdade"></div>
+
+                <div class="formacoes" id="estacio" class="container-formação">
+                    <h3>Ensino Superior</h3>
+                        <div class="container-dados">
+                            <div class="container-cabecalho">
+                                <div class="div-logo">
+                                    <img src="./estilo/imagem/estacioCortada.png" alt="Estacio" id="logo-estacio">
+                                </div>
+                                <h4>UNIVERSIDADE ESTÁCIO</h4>
+                            </div>
+                                <p>Análize e Desnvolvimento de Sistemas</p>
+                                <p>Tipo: Tecnólogo</p>
+                                <p>Estado: Cursando</p>
+                                <p>Período: 3° semestre</p>
                         </div>
-                        <h4>UNIVERSIDADE ESTÁCIO</h4>
-                    </div>
-                        <p>Análize e Desnvolvimento de Sistemas</p>
-                        <p>Tipo: Tecnólogo</p>
-                        <p>Estado: Cursando</p>
-                        <p>Período: 3° semestre</p>
                 </div>
-                <img src="./estilo/imagem/facul.jpeg" alt="faculdade" id="img-faculdade">
+
             </div>
-            <div class="formacoes" id="if">
-                <h3>Ensino Médio</h3>
-                <div class="container-dados">
-                    <div class="container-cabecalho">
-                        <div class="div-logo">
-                            <img src="./estilo/imagem/IFcortado.png" alt="Instituto Federal" id="logo-if">
+
+            <div class="container-grid">
+
+                <div class="formacoes" id="if" class="container-formação">
+                    <h3>Ensino Médio</h3>
+                        <div class="container-dados">
+                            <div class="container-cabecalho">
+                                <div class="div-logo">
+                                    <img src="./estilo/imagem/IFcortado.png" alt="Instituto Federal" id="logo-if">
+                                </div>
+                                <h4>INSTITUTO FEDERAL</h4>
+                            </div>
+                                <p>Escolaridade: Ensino Médio</p>
+                                <p>Campus: Alta Floresta - MT</p>
+                                <p>Curso Técnico: Administração</p>
+                                <p>Estado: Completo</p>
                         </div>
-                        <h4>INSTITUTO FEDERAL</h4>
-                    </div>
-                        <p>Escolaridade: Ensino Médio</p>
-                        <p>Campus: Alta Floresta - MT</p>
-                        <p>Curso Técnico: Administração</p>
-                        <p>Estado: Completo</p>
                 </div>
-                <img src="./estilo/imagem/escola.jpeg" alt="escola" id="img-escola">
+
+                <div><img src="./estilo/imagem/escola.png" alt="escola" id="img-escola"></div>
+
             </div>
         </section>
+
         <section id="TECs">
             <h2>Tecnologias</h2>
             <div id="conteiner-tec">
@@ -113,26 +125,30 @@
         </section>
         <section id="historia">
             <h2>Minha História</h2>
-            <img src="./estilo/imagem/historia.png" alt="historia" id="img-historia">
-            <p>Nascido e criado na cidade de Alta Floresta, no interior do Mato Grosso, sou um jovem de <strong>20
-                    anos</strong> que, desde muito cedo, encontrou na área da computação sua verdadeira vocação. Apesar
-                da pouca vivência no ramo, tenho me empenhado constantemente na <strong>busca por conhecimento</strong>
-                e <strong>evolução profissional</strong>, dia após dia.</p>
-            <p> Atualmente, possuo maior familiaridade com o <strong>front-end</strong>; entretanto, também me aprofundo
-                no mundo por trás das cortinas, explorando a passos largos o <strong>back-end</strong>.</p>
-            <p>Busco oportunidades na área e desejo aprender com aqueles que já trilharam muitos caminhos. Apesar da
-                pouca idade, coloco minha <strong>juventude</strong>, minha <strong>dedicação ao aprendizado</strong> e
-                minha <strong>sede de vencer</strong> a disposição daqueles que me derem uma chance.
-            </p>
-
+            <div class="container-historia">
+                <img src="./estilo/imagem/historia.png" alt="historia" id="img-historia">
+                <div>
+                    <p>Nascido e criado na cidade de Alta Floresta, no interior do Mato Grosso, sou um jovem de <strong>20
+                            anos</strong> que, desde muito cedo, encontrou na área da computação sua verdadeira vocação. Apesar
+                        da pouca vivência no ramo, tenho me empenhado constantemente na <strong>busca por conhecimento</strong>
+                        e <strong>evolução profissional</strong>, dia após dia.</p>
+                    <p> Atualmente, possuo maior familiaridade com o <strong>front-end</strong>; entretanto, também me aprofundo
+                        no mundo por trás das cortinas, explorando a passos largos o <strong>back-end</strong>.</p>
+                    <p>Busco oportunidades na área e desejo aprender com aqueles que já trilharam muitos caminhos. Apesar da
+                        pouca idade, coloco minha <strong>juventude</strong>, minha <strong>dedicação ao aprendizado</strong> e
+                        minha <strong>sede de vencer</strong> a disposição daqueles que me derem uma chance.
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
     <footer id="contato">
-        <h2>Contatos:</h2>
-        <div>
-            <p><strong>Telefone:</strong> (66) 99245-9076</p>
-            <p><strong>email:</strong> filipelaureth.dev@gmail.com</p>
-        </div>
+            <h2>Contatos:</h2>
+            <div>
+                <p><strong>Telefone:</strong> (66) 99245-9076</p>
+                <p><strong>Email:</strong> filipelaureth.dev@gmail.com</p>
+                <p id="instag"><strong>Instagran:</strong> filipelaureth_dev</p>
+            </div>
     </footer>
 </body>
 

@@ -80,14 +80,14 @@ header{
 }
 
 /*minha Formações*/
-section> h2{
+#formacao{
     font-size:35px;
     padding-top:30px;
     padding-bottom:20px;
     margin-top:10px;
     text-align: center;
 }
-section > div > h3{
+.formacoes > h3{
     color:var(--amarelo);
     font-size:2em;
     text-align: center;
@@ -101,7 +101,7 @@ section > div > h3{
     /*background-color: #242424;*/
     margin-top:10px;
     border-radius:5px;
-    box-shadow:  3px 3px 5px #121212d0;
+    box-shadow:  2px 2px 4px #121212b0;
     position: relative;
     transform: translate(-50%);
     left:50%;
@@ -138,6 +138,7 @@ section > div > h3{
     color:white;
     font-size:1em;
     font-weight: 800;
+    
 }
 
 /*logo*/
@@ -227,7 +228,7 @@ section > div > h3{
     text-align: center;
     margin-bottom:10px;
 }
-#historia > p{
+#historia > div > div p{
     color:white;
     font-size:20px;
     text-align: justify;
@@ -247,7 +248,6 @@ footer{
     width:100vw;
     height:15vh;
     background-color:var(--preto);
-    
 }
 footer> h2 {
     color:white;
@@ -263,6 +263,9 @@ footer > div > p {
     color:white;
     margin-left: 40px;
     margin-bottom: 5px;
+}
+#instag{
+    display: none;
 }
 
 /*<animações>*/

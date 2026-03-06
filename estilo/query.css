@@ -3,6 +3,7 @@
     /*<imagem menu>*/
     header {
         background-image: url(./imagem/euGrande.png);
+        background-position: right center;
     }
 
     /*<Meu nome>*/
@@ -25,26 +26,45 @@
     }
     #baner > p {
         display: block;
-    width:30vw;
-    color:var(--amarelo);
-    padding-top:10vh;
-    font-size:1.2em;
-    text-align: center;
-    margin: auto;
+        width:30vw;
+        color:var(--amarelo);
+        padding-top:10vh;
+        font-size:1.2em;
+        text-align: center;
+        margin: auto;
     }
 
 
     /*minha Formações*/
+    #formacao{
+        font-size:40px;
+        padding-top:20px;
+        padding-bottom:10px;
+    }
     .formacoes {
-        width: 50vw;
+        width: 30vw;
+        margin: 0px;
     }
 
     .formacoes>div {
-        width: 45vw;
+        width: 25vw;
     }
 
     .container-cabecalho {
         margin-bottom: 20px;
+    }
+    .formacoes > div> p{
+        display: block;
+        margin-left:30px;
+    }
+    .container-formação{
+        display:flex;
+    }
+    .container-grid{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        max-width:900px;
+        margin: 40px auto;
     }
 
     /*<Tecnologias que eu sei>*/
@@ -52,30 +72,60 @@
         width: 65vw;
         margin: auto;
     }
+    #TECs > h2{
+        padding-top:0px;
+    }
 
     /*<história>*/
+    #historia{
+        height:105vh;
+    }
     #historia>p {
         width: 30vw;
+    }
+    .container-historia{
+        display: flex;
+        justify-content: center;
+        margin-top:50px;
+    }
+    #historia > div > div p{
+        width:30vw;
+        margin-left:70px;
     }
 
     /*<roda pé>*/
     footer {
-        height: 20vh;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+    footer> h2 {
+        display: none;
+    }
+    footer > div {
+       display: flex;
+       align-items: center;
+       margin: auto 0;
+    }
+    #instag{
+    display: block;
     }
 
     /*<imagem>*/
     #img-faculdade {
-        display: none;
-        width: 300px;
+        display: block;
+        width: 30vw;
+        margin-top:10px;
     }
 
     #img-escola {
-        display: none;
-        width: 300px;
+        display: block;
+        width: 33vw;
+        margin-top:10px;
     }
 
     #img-historia {
-        display: none;
-        width: 500px;
+        display:block;
+        width: 450px;
     }
 }
