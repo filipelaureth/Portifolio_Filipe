@@ -34,7 +34,7 @@ menu > ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:2vw
+    gap:1vw;
 }
 menu > ul > a {
     color: white;
@@ -218,8 +218,8 @@ header{
 #historia{
     margin-top:40px;
     width:100vw;
-    height:105vh;
     background-color: var(--pretoClaro);
+    padding-bottom:30px;
 }
 #historia > h2{
     color:var(--amarelo);
